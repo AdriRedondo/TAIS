@@ -1,6 +1,6 @@
 /*@ <authors>
  *
- * E86 Nombre Apellidos
+ * 7_01
  *
  *@ </authors> */
 
@@ -11,12 +11,14 @@
 #include <vector>
 #include <limits>
 #include <sstream>
-#include <queue> // <- Se quita, ya no usamos std::priority_queue
+
 
 using namespace std;
 
 #include "DigrafoValorado.h"
-#include "IndexPQ.h" // <-- Incluimos la plantilla
+#include "IndexPQ.h" 
+
+
 using Valor = int;
 static constexpr Valor INF_VAL = std::numeric_limits<Valor>::max();
 
